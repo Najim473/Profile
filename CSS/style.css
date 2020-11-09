@@ -1,0 +1,52 @@
+*{
+        margin: 0px;
+        padding: 0px;
+}
+body{
+        background-color: rebeccapurple;
+ }
+img{
+        height:200px ;
+        width:250px;
+        margin: 10px;
+}
+.container{
+        background-color:white;
+        margin: 20px;
+        border-radius: 20px;
+        outline-color: 10px red;
+        outline:10px solid white;
+                
+}
+.about{
+        margin: 10px;
+}
+.name{
+        font:bold;
+        font-size:25px;
+}
+.title{
+        color:blue;
+      
+}
+a.facebook{
+        color:blue;
+        height: 30px;
+}
+a.instragram{
+        color:blueviolet;
+}
+a.twitter{
+        color:aqua;
+}
+/*Grid */
+.container{
+        display: grid;
+        grid-template-columns: 300px 800px;
+        grid-gap: 10px;
+}
+.online{
+        background-color:beige;
+        width:200px;
+        height: 40px;
+}
